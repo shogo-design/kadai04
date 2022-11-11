@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>ジャンケンアプリ</h1>
+    </header>
+
+    <main>
+    
+        <ul>
+            <div class="hand" id="hand" style="display:none;">
+                    <p class="play">あなたの手</p>
+        
+                                <li id="gu_btn">グー</li>
+                                <li id="cho_btn">チョキ</li>
+                                <li id="par_btn">パー</li>
+                        <br />
+                        
+                </div>
+            </ul>
+            <div class="what">ケイスケホンダの手
+                
+                        <span id="pc_hands">
+                        <img src="img/honda1.jpg.webp" alt="">
+                        </span>
+            </div>
+                    <div class="judge">
+                        <p>勝敗</p>
+                        <div id="judgment"></div>
+                </div>
+                <div class="mem">
+                    <div class="text">
+                            <input type="text" id="key">
+                            <textarea name="" id="memo" cols="30" rows="10"></textarea>
+                            
+                        </div>
+                        
+                            <ul>
+                                <li id="save">Save</li>
+                                <li id="clear">Clear</li>
+                            </ul>
+                        <table id="list">
+                            <!-- ここに追加データが挿入される -->
+                        </table>
+                </div>
+        
+       
+    </main>
+
+    <footer></footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    
+    
+
+    
+</body>
+</html>

@@ -1,0 +1,257 @@
+@charset "utf-8";
+body{
+    background-color: aqua;
+}
+header{
+    text-align: center; 
+    font-size: 50px;  
+    color: green;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 ;
+    position: relative;
+    bottom: 100px;
+}
+li{
+    display: flex;
+    justify-content: center;
+}
+.what{
+    text-align: center;
+}
+.hand{
+    display: flex;
+    flex-flow: column;
+    position: relative;
+}
+.play{
+    position: relative;
+    top: 150px;
+}
+p{
+    text-align: center;
+    font-size: 50px;
+    color: green;
+}
+/* .te{
+    text-align: center;
+    font-size: 50px;
+} */
+
+#judgment{
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    bottom: 200px;
+}
+
+#gu_btn{
+
+    margin: 0px 0px 60px;
+    font-size: 18px;
+    background-color: blue;
+    color: #fff;
+    width: 100px;
+    height: 60px;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    /* margin: 0 auto; */
+    box-shadow: 0px 0px 50px 0px rgba(98, 98, 98, 0.8);
+    position: relative;
+    top: 50px;
+    left: 450px;
+
+
+}
+
+#gu_btn:hover {
+    opacity: 0.6;
+}
+
+#gu_btn:hover {
+    transform: scale(1.1, 1.1);
+}
+#cho_btn {
+
+    margin: 0px 0px 60px;
+    font-size: 18px;
+    background-color: rgb(251, 251, 30);
+    color: #fff;
+    width: 100px;
+    height: 60px;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    /* margin: 0 auto; */
+    box-shadow: 0px 0px 50px 0px rgba(98, 98, 98, 0.8);
+    position: relative;
+    left: 630px;
+    bottom: 70px;
+
+}
+
+#cho_btn:hover {
+    opacity: 0.6;
+}
+
+#cho_btn:hover {
+    transform: scale(1.1, 1.1);
+}
+#par_btn {
+
+    margin: 0px 150px 0px 150px;
+    font-size: 18px;
+    background-color:red;
+    color: #fff;
+    width: 100px;
+    height: 60px;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    /* margin: 0 auto; */
+    box-shadow: 0px 0px 50px 0px rgba(98, 98, 98, 0.8);
+    position: relative;
+    bottom: 190px;
+    left: 660px;
+}
+
+#par_btn:hover {
+    opacity: 0.6;
+}
+
+#par_btn:hover {
+    transform: scale(1.1, 1.1);
+}
+
+img{
+    width: 300px;
+    height: 200px;
+}
+.what{
+    display: flex;
+    flex-flow: column;
+    font-size: 50px;
+    color: green;
+    position: relative;
+    bottom: 250px;
+}
+.judge{
+    position: relative;
+    bottom: 200px;
+}
+#text_area{
+    position: relative;
+    left: 600px;
+    bottom: 200px;
+}
+.btn{
+    position: relative;
+    left: 610px;
+    bottom: 200px;
+}
+#save{
+    width: 100px;
+    height: 100px;
+}
+#clear{
+    width: 100px;
+    height: 100px;
+}
+
+main {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+p {
+    font-size: 200%;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    height: 200px;
+    position: relative;
+    bottom: 50px;
+}
+
+ul {
+    padding: 0;
+    border-top: 1px solid #000000;
+    display: table;
+    table-layout: fixed;
+    width: 96%;
+    font-size: 80%;
+    margin: 0 3%;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    border: 1px solid #666;
+    background-color: #fff;
+    display: table-cell;
+    cursor: pointer;
+    color: #0d7dfd;
+}
+
+li:hover {
+    background: #0d7dfd;
+    color: #fff;
+}
+
+textarea {
+    margin: 10px 3%;
+    width: 95%;
+    height: 100px;
+    font-size: 80%;
+    box-shadow: 3px 3px 3px 3px #555;
+    background-color: rgb(241, 239, 239);
+}
+
+#key {
+    margin: 0 3%;
+    width: 95%;
+    font-size: 80%;
+    background-color: #e1efff;
+    box-shadow: 3px 3px 3px 3px #555;
+}
+
+table {
+    margin: 20px 3%;
+    border: 1px solid #8dc3f5;
+    width: 96%;
+
+}
+
+th {
+    width: 30%;
+    font-size: 24px;
+    background-color: #d0e7fc;
+    border-bottom: 1px solid #8dc3f5;
+}
+
+td {
+    font-size: 16px;
+    background-color: rgb(241, 239, 239);
+    border-bottom: 1px solid #8dc3f5;
+}
+.text{
+    position: relative;
+    bottom: 150px;
+}
+.mem{
+    position: relative;
+    bottom: 200px;
+}
+
+
+ 
+ 
